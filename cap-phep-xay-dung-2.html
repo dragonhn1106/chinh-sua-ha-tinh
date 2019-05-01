@@ -337,7 +337,7 @@
         <div id="mainContent">
           <div class="full-container">
             <div class="container-fluid">
-              <form class="mb-4">
+              <!-- <form class="mb-4">
                 <div class=" form-row " id="tim-kiem-co-ban">
                   <div class="col-sm-10 col-12 ">
                     <div class="form-group row m-auto">
@@ -360,8 +360,39 @@
                     </div>
                   </div>
                 </div>
-              </form>
+              </form> -->
 
+              <form class="mb-4">
+                <div class=" form-row " id="tim-kiem-co-ban">
+                  <div class="col-sm-8 col-12 ">
+                    <div class="form-group row m-auto">
+                      <div class="form-group col-sm-2 col-2 btnThemMoiDesktop m-auto">
+                        <a class="btn btn-primary btn-add-mb m-auto" data-toggle="modal"
+                          data-target="#them-moi-phan-ky-du-an" onclick="onAddIdDefault()" href="javascript:void(0);"><i
+                            class="fa fa-plus" aria-hidden="true"></i> Thêm mới</a>
+                      </div>
+                      <div class="form-group m-auto col-2 text-center col-2 btnThemMoiMobile" data-toggle="modal"
+                        data-target="#them-moi-phan-ky-du-an">
+                        <a class="btn btn-primary " href="javascript:void(0)">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                      <div class="col-sm-10 col-10 m-auto" id="sidebar-search">
+                        <div class="input-group">
+                          <input type="search" class="form-control"
+                            placeholder="Nhập từ khóa tìm kiếm theo tên quốc gia" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2" id="txtSearch">
+                          <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" onclick="TraCuu()">Tìm kiếm</button>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </form>
               <!-- Modal  thêm mới phân kỳ dự án-->
               <div class="modal fade" id="them-moi-phan-ky-du-an" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
